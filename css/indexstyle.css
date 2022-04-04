@@ -12,6 +12,7 @@ h5{
 
 .subhead{
   list-style-type: none;
+  text-align: center;
 }
 
 .container{
@@ -85,12 +86,8 @@ form{
   padding: 10px;
 }
 
-footer{
-  background-color: #212121;
-  top: 0;
-  height: 50px;
-  margin-top: 50px;
-
+.submit-btn:hover{
+  background-color: rgba(227, 135, 155, 1);
 }
 
 .footertext{
