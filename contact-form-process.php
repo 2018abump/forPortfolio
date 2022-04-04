@@ -70,6 +70,4 @@ if (isset($_POST['Email'])) {
 
     Thanks for getting in touch. We'll get back to you soon.
 
-<?php
-}
-?>
+<?php?>
