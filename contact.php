@@ -3,7 +3,6 @@ if (isset($_POST['Email'])) {
 
     // EDIT THE FOLLOWING TWO LINES:
     $email_to = "alyssa.bump@gmail.com";
-    $email_subject = "New form submissions";
 
     function problem($error)
     {
@@ -20,7 +19,7 @@ if (isset($_POST['Email'])) {
         !isset($_POST['Email']) ||
         !isset($_POST['Message'])
     ) {
-        problem('We're sorry, but there appears to be a problem with the form you submitted.');
+        problem('We are sorry, but there appears to be a problem with the form you submitted.');
     }
 
     $name = $_POST['Name']; // required
