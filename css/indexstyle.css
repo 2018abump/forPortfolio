@@ -65,6 +65,11 @@ h3{
 
 .social{
   margin: 50px;
+  color: #212121;
+}
+
+.social:hover{
+  color: rgb(227, 135,155);
 }
 
 .ContactForm{
@@ -96,7 +101,15 @@ form{
 }
 
 footer{
-bottom: 0px;
+overflow: hidden;
+width:100%;
+height: 100%;
+background-color: #212121;
+top:0;
+bottom:0;
+padding: 15px;
+margin-top:65px;
+margin-bottom:0;
 }
 
 .footertext{
@@ -108,7 +121,7 @@ bottom: 0px;
 
 .icons{
   padding: 15px;
-  margin-right: 50px;
+  margin-right: 15px;
 }
 
 .icons:hover{
